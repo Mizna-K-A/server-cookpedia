@@ -37,10 +37,6 @@ const recipeSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    tags: {
-        type: Array,
-        required: true
-    },
     image: {
         type: String,
         required: true
